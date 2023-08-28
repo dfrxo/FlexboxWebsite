@@ -1,0 +1,53 @@
+ #1 {
+    background-color: blue;
+ }
+
+#2{
+    background-color: green;
+    color:aliceblue;
+}
+
+div {
+    display:flex;
+    flex-direction: column;
+    height:300px;
+    width:100%;
+}
+#header #leftHeader{
+    margin-right:40%;
+}
+
+#header {
+    display:flex;
+    gap:2%;
+    justify-content:flex-end;
+    background-color: yellow;
+}
+
+.first{
+    background-color:blue;
+    display:flex;
+    flex-direction: row;
+    align-content:space-evenly;
+    justify-content:space-evenly;
+}
+.first .box {
+    display:flex;
+    background-color:red;
+    height:40%;
+    width:40%;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-self:center;
+}
+
+
+.second{
+    background-color:lemonchiffon;
+}
+.third{
+    background-color:blue;
+}
+.fourth{
+    background-color:lemonchiffon;
+}
